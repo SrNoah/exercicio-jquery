@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+    <title>Lista de casamento</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Check-list Casamento</h1>
+        </header>
+        <form id="form-lista">
+            <h2>O que não pode faltar?</h2>
+            <input type="text" required placeholder="Digite o item" id="novo-item">
+            <button type="submit">Adicionar na lista</button>
+            <button type="reset" id="botao-apagar">Apagar</button>
+        </form>
+        <ul>
+            <li class="riscar">
+                <div class="check-list">Convidados</div>
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

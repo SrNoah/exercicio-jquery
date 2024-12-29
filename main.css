@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/src/Imagem-casamento.jpg);
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Merriweather", serif;
+}
+
+.container {
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+header h1 {
+    background-color: #ffffffbe;
+    font-family: "Playfair Display", serif;
+    padding: 16px;
+    border: 1px solid #000000c7;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#form-lista {
+    background-color: #916437c8;
+    color: #fff;
+    border: 1px solid #000000c7;
+    padding: 24px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 16px 6px 0;
+}
+
+button {
+    background-color: #000000c7;
+    border: none;
+    border-radius: 5%;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao-apagar {
+    background-color: #700202da;
+    border-radius: 5%;
+}
+
+ul {
+    display: list-item;
+    padding: 0;
+    margin-top: 20px;
+    color: #321a01ca;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.riscar {
+    text-decoration: line-through;
+}
+
+.check-list {
+    font-size: 24px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    border-bottom: 1px solid #00000077;
+    padding: 8px;
+}
